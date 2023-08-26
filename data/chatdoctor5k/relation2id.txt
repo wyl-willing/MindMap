@@ -1,0 +1,6 @@
+has_symptom	0
+possible_disease	1
+need_medical_test	2
+can_check_disease	3
+need_medication	4
+possible_cure_disease	5
