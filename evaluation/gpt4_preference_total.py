@@ -30,7 +30,7 @@ def prompt_comparation(reference,output1,output2):
   return response_of_comparation
 
 input_file = 'output.csv'
-output_file = 'output_gpt4_comparation_total.csv'
+output_file = 'output_gpt4_preference_total.csv'
 
 
 with open(input_file,'r',newline="") as f_input, open(output_file, 'a+', newline='') as f_output:
