@@ -15,13 +15,6 @@ password = "Your_password"
 Note that the data of CMCKG is too large, and it will take about two days to wait. We recommend clicking "extend your project" in neo4j sandbox. But don't worry, the EMCKG used by chatdoctor5k will be ready to build on your facility in no time.
 Then, don't forget to replace your openai_key in MindMap.py.
 
-# Citation
-Please cite our paper if you use our method in your work (Bibtex below).
-```
-@article{wen2023mindmap,
-  title={MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models},
-  author={Wen, Yilin and Wang, Zifeng and Sun, Jimeng},
-  journal={arXiv preprint arXiv:2308.09729},
-  year={2023}
-}
-```
+'''
+python MindMap.py
+'''
