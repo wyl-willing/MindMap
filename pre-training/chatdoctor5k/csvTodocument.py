@@ -81,11 +81,11 @@ current_path = os.path.abspath(os.getcwd())
 
 df = pd.read_csv("disease_database_mini.csv", sep=",", encoding="utf-8")
 
-# 遍历每一行数据
+
 for index, row in df.iterrows():
     row = row.transpose()
     print(row)
-    # 获取文件名和文本内容
+
     filename = str(row[0]) + ".txt"
     text = ",".join([str(val) for val in row[1:]])
     document_value = prompt_document(text)
@@ -95,6 +95,6 @@ for index, row in df.iterrows():
         
     print(document_value)
 
-    # 将文本写入文本文件
+
     with open(os.path.join(current_path, "document", filename), "w", encoding="utf-8") as f:
         f.write(document_value)
