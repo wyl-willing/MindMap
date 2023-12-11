@@ -3,7 +3,7 @@ import csv
 from time import sleep
 
 
-openai.api_key = "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"
+openai.api_key = "<OPENAI-KEY>"
 
 def prompt_comparation(reference,output1,output2):
     template = """
