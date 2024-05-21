@@ -23,10 +23,10 @@ python MindMap.py
 If you find this paper interesting, please consider cite it through
 
 ```latex
-@article{wen2023mindmap,
+@inproceedings{wen2023mindmap,
   title={MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models},
   author={Wen, Yilin and Wang, Zifeng and Sun, Jimeng},
-  journal={arXiv preprint arXiv:2308.09729},
-  year={2023}
+  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  year={2024}
 }
 ```
